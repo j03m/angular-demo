@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/driver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/drivers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/drivers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e2e/drivers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/controllers.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,10 +16,13 @@
     <file path="/main.html" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1406929256935" ignored="false" />
     <file path="/index.html" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407113814560" ignored="false" />
     <file path="/services.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1406935436175" ignored="false" />
-    <file path="/controllers.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407120759402" ignored="false" />
+    <file path="/controllers.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407123087519" ignored="false" />
     <file path="/app.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407113220144" ignored="false" />
     <file path="/a.dummy" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407120142212" ignored="false" />
-    <file path="/drivers.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407120698469" ignored="false" />
+    <file path="/drivers.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407123415726" ignored="false" />
+    <file path="/notes.txt" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407122939414" ignored="false" />
+    <file path="/*.regexp" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407151992843" ignored="false" />
+    <file path="/Gruntfile.js" changelist="ba142ef8-5304-44c1-8ee8-8b6e16ae17fe" time="1407152044442" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +83,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="989" selection-end="989" vertical-scroll-proportion="-11.4">
+            <state line="472" column="0" selection-start="13934" selection-end="13934" vertical-scroll-proportion="0.8014706">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,8 +113,20 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="97" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="26" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="4" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-21.875">
+              <folding>
+                <marker date="1407151608000" expanded="true" signature="115:1045" placeholder="{&quot;grunt&quot;: &quot;^0.4.5&quot;...}" />
+                <marker date="1407151608000" expanded="true" signature="1083:1145" placeholder="{&quot;install&quot;: &quot;node node_modules/protractor/bin/webdriver-manager update&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,34 +134,25 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="497" selection-end="497" vertical-scroll-proportion="-4.7058825">
+            <state line="25" column="50" selection-start="770" selection-end="770" vertical-scroll-proportion="-7.352941">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/driver.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-23.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="863" selection-end="863" vertical-scroll-proportion="0.58229816">
+            <state line="25" column="10" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="drivers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/e2e/drivers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="188" selection-end="235" vertical-scroll-proportion="-5.625">
+            <state line="15" column="43" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,19 +161,8 @@
       <file leaf-file-name="drivers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/spec/controllers/drivers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="63" selection-start="2595" selection-end="2595" vertical-scroll-proportion="-7.509804">
+            <state line="62" column="39" selection-start="2304" selection-end="2304" vertical-scroll-proportion="-5.45098">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,32 +170,8 @@
       <file leaf-file-name="drivers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/drivers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="46" selection-start="582" selection-end="582" vertical-scroll-proportion="-11.25">
+            <state line="6" column="17" selection-start="186" selection-end="207" vertical-scroll-proportion="-3.75">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-concat/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="42" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-29.375">
-              <folding>
-                <marker date="1406926494000" expanded="true" signature="0:11376" placeholder="{&quot;name&quot;: &quot;grunt-contrib-concat&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="174:238" placeholder="{&quot;name&quot;: &quot;Grunt Team&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="256:343" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="355:428" placeholder="{&quot;url&quot;: &quot;https://github.com/gruntjs/grunt-contrib-concat/issues&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="444:569" placeholder="[...]" />
-                <marker date="1406926494000" expanded="true" signature="450:565" placeholder="{&quot;type&quot;: &quot;MIT&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="584:612" placeholder="{&quot;node&quot;: &quot;&gt;= 0.8.0&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="627:657" placeholder="{&quot;test&quot;: &quot;grunt test&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="677:704" placeholder="{&quot;chalk&quot;: &quot;~0.4.0&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="727:909" placeholder="{&quot;grunt-contrib-jshint&quot;: &quot;~0.9.2&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="933:960" placeholder="{&quot;grunt&quot;: &quot;~0.4.0&quot;...}" />
-                <marker date="1406926494000" expanded="true" signature="976:999" placeholder="[...]" />
-                <marker date="1406926494000" expanded="true" signature="1012:1048" placeholder="[...]" />
-                <marker date="1406926494000" expanded="true" signature="11171:11233" placeholder="{&quot;shasum&quot;: &quot;86f9624d3c8dd90e17684b34e374565d5946d9e1&quot;...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,18 +199,22 @@
         <option value="$PROJECT_DIR$/app/views/drivers.html" />
         <option value="$PROJECT_DIR$/app/views/driver.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
-        <option value="$PROJECT_DIR$/test/spec/controllers/drivers.js" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/app/scripts/services.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/test/spec/controllers/drivers.js" />
+        <option value="$PROJECT_DIR$/test/e2e/drivers.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="720" />
+    <option name="x" value="393" />
+    <option name="y" value="36" />
+    <option name="width" value="1050" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -284,83 +271,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,7 +412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="720" height="874" extended-state="0" />
+    <frame x="393" y="36" width="1050" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -522,7 +433,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27744806" sideWeight="0.67168266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18625498" sideWeight="0.67168266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -593,22 +504,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-concat/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-29.375">
+        <state line="47" column="4" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-29.375">
           <folding>
-            <marker date="1406926494000" expanded="true" signature="0:11376" placeholder="{&quot;name&quot;: &quot;grunt-contrib-concat&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="174:238" placeholder="{&quot;name&quot;: &quot;Grunt Team&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="256:343" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="355:428" placeholder="{&quot;url&quot;: &quot;https://github.com/gruntjs/grunt-contrib-concat/issues&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="444:569" placeholder="[...]" />
-            <marker date="1406926494000" expanded="true" signature="450:565" placeholder="{&quot;type&quot;: &quot;MIT&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="584:612" placeholder="{&quot;node&quot;: &quot;&gt;= 0.8.0&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="627:657" placeholder="{&quot;test&quot;: &quot;grunt test&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="677:704" placeholder="{&quot;chalk&quot;: &quot;~0.4.0&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="727:909" placeholder="{&quot;grunt-contrib-jshint&quot;: &quot;~0.9.2&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="933:960" placeholder="{&quot;grunt&quot;: &quot;~0.4.0&quot;...}" />
-            <marker date="1406926494000" expanded="true" signature="976:999" placeholder="[...]" />
-            <marker date="1406926494000" expanded="true" signature="1012:1048" placeholder="[...]" />
-            <marker date="1406926494000" expanded="true" signature="11171:11233" placeholder="{&quot;shasum&quot;: &quot;86f9624d3c8dd90e17684b34e374565d5946d9e1&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;grunt-contrib-concat&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Grunt Team&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;https://github.com/gruntjs/grunt-contrib-concat/issues&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;MIT&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;node&quot;: &quot;&gt;= 0.8.0&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;grunt test&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;chalk&quot;: &quot;~0.4.0&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;grunt-contrib-jshint&quot;: &quot;~0.9.2&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;grunt&quot;: &quot;~0.4.0&quot;...}" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1406926494000" expanded="true" signature="-1:-1" placeholder="{&quot;shasum&quot;: &quot;86f9624d3c8dd90e17684b34e374565d5946d9e1&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -616,20 +527,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/driver.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="10" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-23.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/drivers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="582" selection-end="582" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="97" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -643,37 +540,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/drivers.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="63" selection-start="2595" selection-end="2595" vertical-scroll-proportion="-7.509804">
+        <state line="25" column="10" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="989" selection-end="989" vertical-scroll-proportion="-11.4">
+        <state line="35" column="4" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-21.875">
+          <folding>
+            <marker date="1407151608000" expanded="true" signature="115:1045" placeholder="{&quot;grunt&quot;: &quot;^0.4.5&quot;...}" />
+            <marker date="1407151608000" expanded="true" signature="1083:1145" placeholder="{&quot;install&quot;: &quot;node node_modules/protractor/bin/webdriver-manager update&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/drivers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="186" selection-end="207" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="497" selection-end="497" vertical-scroll-proportion="-4.7058825">
+        <state line="25" column="50" selection-start="770" selection-end="770" vertical-scroll-proportion="-7.352941">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
+    <entry file="file://$PROJECT_DIR$/test/spec/controllers/drivers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="863" selection-end="863" vertical-scroll-proportion="0.58229816">
+        <state line="62" column="39" selection-start="2304" selection-end="2304" vertical-scroll-proportion="-5.45098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/e2e/drivers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="472" column="0" selection-start="13934" selection-end="13934" vertical-scroll-proportion="0.8014706">
           <folding />
         </state>
       </provider>

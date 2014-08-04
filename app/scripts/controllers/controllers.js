@@ -13,7 +13,6 @@ angular.module('F1FeederApp.controllers', []).
         $scope.driversList = [];
         ergastAPIservice.getDrivers().success(function (response) {
             //Dig into the responde to get the relevant data
-
             $scope.driversList = response.MRData.StandingsTable.StandingsLists[0].DriverStandings;
         });
 
@@ -24,6 +23,7 @@ angular.module('F1FeederApp.controllers', []).
     controller('driverController', function($scope, $routeParams, ergastAPIservice) {
         console.log('driver');
         $scope.id = $routeParams.id;
+
         $scope.races = [];
         $scope.driver = null;
 

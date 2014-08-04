@@ -30,12 +30,30 @@
     "karma": "^0.12.19",
     "karma-jasmine": "^0.1.5",
     "grunt-karma": "^0.8.3",
-    "karma-chrome-launcher": "^0.1.4"
+    "karma-chrome-launcher": "^0.1.4",
+    "protractor": "^1.0.0",
+    "grunt-protractor-runner": "^1.1.0",
+    "grunt-istanbul": "^0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "grunt test"
-  }
+  "description": "angular-demo ============",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j03m/angular-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j03m/angular-demo/issues"
+  },
+  "homepage": "https://github.com/j03m/angular-demo"
 }
