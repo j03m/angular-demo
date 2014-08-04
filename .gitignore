@@ -3,3 +3,7 @@ dist
 .tmp
 .sass-cache
 coverage
+bower_components
+.idea
+npm*.log
+*.iml

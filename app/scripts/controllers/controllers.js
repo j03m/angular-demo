@@ -12,7 +12,7 @@ angular.module('F1FeederApp.controllers', []).
         console.log('drivers');
         $scope.driversList = [];
         ergastAPIservice.getDrivers().success(function (response) {
-            //Dig into the responde to get the relevant data
+            //sssDig into the responde to get the relevant data
             $scope.driversList = response.MRData.StandingsTable.StandingsLists[0].DriverStandings;
         });
 
@@ -32,6 +32,7 @@ angular.module('F1FeederApp.controllers', []).
         });
 
         ergastAPIservice.getDriverRaces($scope.id).success(function (response) {
+            //sd
             $scope.races = response.MRData.RaceTable.Races;
         });
     });
