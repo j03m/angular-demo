@@ -7,10 +7,15 @@
   <tr ng-repeat="driver in driversList | filter: nameFilter">
     <td>{{$index + 1}}</td>
     <td>
-      <img src="img/flags/{{driver.Driver.nationality}}.png" />
+      <img src="http://rboaventura.com/f1feeder/images/flags/{{driver.Driver.nationality}}.png" />
+
       <a href="#/drivers/{{driver.Driver.driverId}}">
-        {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
+
+
+
+          {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
       </a>
+
     </td>
     <td>{{driver.Constructors[0].name}}</td>
     <td>{{driver.points}}</td>

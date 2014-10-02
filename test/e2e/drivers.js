@@ -54,31 +54,62 @@ describe('when navigating to the drivers page', function() {
         elems = element.all(by.repeater('driver in driversList'));
         expect(elems.count()).toBe(0);
 
-
-
     });
 
     it('should handle search invalid characters', function(){
-        //add seb to search box
+        //add seb!!£ to search box
+        element(by.model('nameFilter')).sendKeys("se<p>b!!!%%$");
+
         //verify results
+        elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(0);
 
         //add something else to search box
+        element(by.model('nameFilter')).clear();
+        element(by.model('nameFilter')).sendKeys("est");
+        elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(2);
+
         //verify result
+
 
 
     });
 
     it('should have the correct details for driver click throughs', function(){
+        element(by.model('nameFilter')).clear();
+        element(by.model('nameFilter')).sendKeys("nico");
+        elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(2);
+        expect(elems.get(0).getText()).toEqual("1 Nico Rosberg Mercedes 171");
+        expect(elems.get(1).getText()).toEqual("2 Nico Hülkenberg Sauber 51");
+        elems.get(0).click();
+
+        //verify the driverslist is gone
+        var elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(0);
+
+        //verify results
+        expect(element(by.binding('driver.Driver.nationality')).getText()).toBe("Country: German\nTeam: Mercedes\nBirth: 1985-06-27\nBiography");
 
     });
 
 
     it('should return the main page when we click back', function(){
+        element(by.model('nameFilter')).clear();
+        element(by.model('nameFilter')).sendKeys("nico");
+        elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(2);
+        elems.get(0).click();
+
+        //click back link
+        element(by.id("back-link")).click();
+
+        //verify the drivers list is back
+        elems = element.all(by.repeater('driver in driversList'));
+        expect(elems.count()).toBe(23);
 
     });
 
-    it('should return the main page when we click back', function(){
-
-    });
 
 });
